@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Manchester United Fanpage - Red Devils</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/manutd.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">         
+                <a class="navbar-brand" th:href="@{index}">Manchester United</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" th:href="@{index}">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{players}">Players</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{articles}">Articles</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{members}">Members</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">   
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-8">
+                            <img src="assets/manu.png"> 
+                            <h1 class="display-4 fw-bolder text-white mb-3">We are</h1>
+                            <h1 class="display-4 fw-bolder text-white mb-3">Manchester United</h1>
+                            <p class="lead text-white-50 mb-4">We'll give you confidence and pride of Red Devils</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">                                            
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Manchester</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#sns">United</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Features section-->
+        <section class="py-5 border-bottom" id="features">
+            <div class="container px-5 my-5">
+                <div class="row gx-5">
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-suit-heart"></i></div>
+                        <h2 class="h4 fw-bolder">PLAYER OF THE SEASON</h2>
+                        <p>Please vote your best united player of the season!!!</p>
+                        <a class="text-decoration-none" href="https://www.manutd.com/en/poll/detail/poll-to-name-sir-matt-busby-player-of-the-year-for-202223-season">
+                            Vote now
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-trophy"></i></div>
+                        <h2 class="h4 fw-bolder">GOAL OF THE SEASON</h2>
+                        <p>please vote your best united goal of the season!!!</p>
+                        <a class="text-decoration-none" href="https://www.manutd.com/en/poll/detail/poll-to-name-man-utd-goal-of-the-season-2022-23">
+                            Vote now
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-suit-heart"></i></div>
+                        <h2 class="h4 fw-bolder">WOMEN PLAYER OF THE SEASON</h2>
+                        <p>Please vote your best women united player of the season!!!</p>
+                        <a class="text-decoration-none" href="https://www.manutd.com/en/poll/detail/poll-to-name-united-women-player-of-the-year-for-202223-season">
+                            Vote now
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing section-->
+        <section class="bg-light py-5 border-bottom">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">The Great Records</h2>
+                    <p class="lead mb-0">The Titles United Have Won</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <!-- Pricing card free-->
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="small text-uppercase fw-bold">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i> 
+                                    <i class="bi bi-star-fill text-warning"></i>                 
+                                </div>
+                                <div class="small text-uppercase fw-bold">
+                                PREMIER LEAGUE
+                                </div>
+                                <div class="mb-3">
+                                    <span class="display-4 fw-bold">20</span>
+                                    <span class="text-muted">/ most winners</span>
+                                </div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1907-08, 1910-11</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Ernest Mangnall
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1951-52, 1955-56, 1956-57, 1964-65, 1966-67</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Sir Matt Busby
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1992-93, 1993-94, 1995-96, 1996-97, 1998-99, 1999-00, 2000-01, 2002-03, 2006-07, 2007-08, 2008-09, 2010-11, 2012-13</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Sir Alex Ferguson
+                                    </li>            
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing card pro-->
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card mb-5 mb-xl-0">
+                            <div class="card-body p-5">
+                                <div class="small text-uppercase fw-bold">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>        
+                                </div>
+                                <div class="small text-uppercase fw-bold">
+                                UEFA Champions League
+                                </div>
+                                <div class="mb-3">
+                                    <span class="display-4 fw-bold">3</span>
+                                    <span class="text-muted"></span>
+                                </div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1967-68</strong>
+                                    </li>
+                                    <li class="mb-2">                                       
+                                        with Sir Matt Busby
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1998-99</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Sir Alex Ferguson
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>2007-08</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Sir Alex Ferguson
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pricing card enterprise-->
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="card">
+                            <div class="card-body p-5">
+                                <div class="small text-uppercase fw-bold">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i>  
+                                    <i class="bi bi-star-fill text-warning"></i>          
+                                </div>
+                                <div class="small text-uppercase fw-bold">
+                                FA CUP
+                                </div>
+                                <div class="mb-3">
+                                    <span class="display-4 fw-bold">12</span>
+                                    <span class="text-muted"></span>
+                                </div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1908-09</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Ernest Mangnall
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1947-48, 1962-63</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Sir Matt Busby
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1976-77</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Tommy Docherty
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1982-83, 1983-84</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Ron Atkinson
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>1989-90, 1993-94, 1995-96, 1998-99, 2003-04</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Sir Alex Ferguson
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="bi bi-check text-primary"></i>
+                                        <strong>2015-16</strong>
+                                    </li>
+                                    <li class="mb-2">
+                                        with Louis Van Gaal
+                                    </li>
+                                </ul>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials section-->
+        <section class="py-5 border-bottom">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Legends Talks</h2>
+                    <p class="lead mb-0">Our legends famous saying about United</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-8">
+                    
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Manchester United is stronger than anybody in the world.</p>
+                                        <div class="small text-muted">- "King", Eric Cantona</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 2-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">It’s a special club. It’s got history. When I slip on the Manchester United shirt, it’s like I’m wearing its past. So you have to sacrifice yourself for this club.</p>
+                                        <div class="small text-muted">- Patrice Evra</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                       
+                      
+                    
+                    <!-- Testimonial 3-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">If you want me to rule out ever being Manchester United manager, I can’t. Special clubs need special managers, so in theory it could work.</p>
+                                        <div class="small text-muted">- Jose Mourinho</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <!-- Testimonial 3-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <p class="mb-1">Manchester United might not win Premier League every year, but we’d always be up there competing for it every year.</p>
+                                        <div class="small text-muted">- Sir Alex Ferguson</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                       </div>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- Contact section-->
+        <section class="bg-light py-5" id="sns">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-hand-thumbs-up"></i></div>
+                    <h2 class="fw-bolder">United SNS</h2>
+                    <p class="lead mb-0">We want to communicate all the fans in this planet</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-instagram text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <a href="https://www.instagram.com/manchesterunited/">Manchester United Official Instagram</a>
+                                        <div class="small text-muted">- https://www.instagram.com/manchesterunited/</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-facebook text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <a href="https://www.facebook.com/manchesterunited">Manchester United Official Facebook</a>
+                                        <div class="small text-muted">- https://www.facebook.com/manchesterunited</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 1-->
+                        <div class="card mb-4">
+                            <div class="card-body p-4">
+                                <div class="d-flex">
+                                    <div class="flex-shrink-0"><i class="bi bi-youtube text-primary fs-1"></i></div>
+                                    <div class="ms-4">
+                                        <a href="https://www.youtube.com/manutd">Manchester United Official Youtube</a>
+                                        <div class="small text-muted">- https://www.youtube.com/manutd</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Made by Anthony Ryu &copy; Manchester United Fan Page 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
