@@ -74,5 +74,6 @@ public class UserController {
 		public String signup(){
 			return "signin/signin.html";
 		}	
+}
 	
 	
