@@ -13,5 +13,9 @@
 - 팀 관련 기사 게시판(CRUD + 사진도 가능)
 >
 
+## MVC 아키텍쳐 사용
+![image](https://github.com/user-attachments/assets/6fbe8685-70ef-4cd3-ac4f-3ed35730e474)
+>
+
 ## 시연 영상
 - https://youtu.be/LyDhZ09Hc8o
